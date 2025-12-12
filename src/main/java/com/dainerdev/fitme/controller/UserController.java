@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserController {
     
     @GetMapping("/register")
-    public String getMethodName() {
+    public String register() {
         return "user/register";
+    }
+
+    @GetMapping("/login")
+    public String logIn() {
+        return "user/login";
     }
     
 }
