@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html xmlns="http://www.thymeleaf.org" lang="es">
 <body>
-    
-    <nav  th:fragment="navbar" class="navbar bg-white shadow-sm px-4">
+
+    <nav th:fragment="navbar" class="navbar bg-white shadow-sm px-4">
+
+        <style>
+            .nvb-txt {
+                color: #5e5e5e;
+            }
+
+            .nvb-txt:hover {
+                color: #383838;
+            }
+        </style>
+
         <span class="navbar-brand fw-bold fs-4" style="color:#ddb102;">FitMe</span>
 
         <div class="d-flex align-items-center gap-3">
