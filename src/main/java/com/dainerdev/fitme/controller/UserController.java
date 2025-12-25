@@ -16,5 +16,10 @@ public class UserController {
     public String logIn() {
         return "user/login";
     }
+
+    @GetMapping("/home")
+    public String home() {
+        return "user/home/home";
+    }
     
 }
