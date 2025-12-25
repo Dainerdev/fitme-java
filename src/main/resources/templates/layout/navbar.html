@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org" lang="es">
+<body>
+    
+    <nav  th:fragment="navbar" class="navbar bg-white shadow-sm px-4">
+        <span class="navbar-brand fw-bold fs-4" style="color:#ddb102;">FitMe</span>
+
+        <div class="d-flex align-items-center gap-3">
+            <span class="fw-bold">Hola, @Usuario!</span>
+            <a href="#" class="text-decoration-none fw-semibold nvb-txt">Perfil</a>
+            <a href="/login" class="text-decoration-none fw-semibold nvb-txt">Salir</a>
+        </div>
+    </nav>
+
+</body>
+</html>
