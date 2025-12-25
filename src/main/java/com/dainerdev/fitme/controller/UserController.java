@@ -22,4 +22,9 @@ public class UserController {
         return "user/home/home";
     }
     
+
+    @GetMapping("/imc")
+    public String imc() {
+        return "user/home/imc";
+    }
 }
